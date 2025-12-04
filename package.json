@@ -1,0 +1,21 @@
+{
+  "name": "duofu-line-bot",
+  "version": "1.0.0",
+  "description": "多扶學堂與多扶接送 LINE 官方帳號機器人",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@line/bot-sdk": "^7.5.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "google-spreadsheet": "^3.3.0",
+    "nodemailer": "^6.9.7"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
