@@ -1,12 +1,3 @@
-**
- * 多扶學堂 & 多扶接送 LINE Bot 核心程式
- * 功能包含：
- * 1. AI 智能客服 (OpenAI 串接)
- * 2. 課程預約流程
- * 3. 接送/租車諮詢流程
- * 4. 資料寫入 Google Sheet (模擬結構)
- * 5. Email 通知 (模擬結構)
- */
 
 require('dotenv').config();
 const express = require('express');
