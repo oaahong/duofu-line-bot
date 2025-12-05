@@ -14,8 +14,7 @@ const config = {
 const client = new line.Client(config);
 const app = express();
 
-// 讓 Express 可以處理 JSON（雖然 line.middleware 會處理，但這樣較保險）
-app.use(express.json());
+
 
 // Webhook 入口
 app.post('/webhook', line.middleware(config), (req, res) => {
